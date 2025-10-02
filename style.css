@@ -1,0 +1,41 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+
+    display: flex;
+    background-color: #778dfa;
+    height: 60px;
+    gap: 50px;
+}
+
+nav img{
+    width: 200px;
+    height: 70px;
+}
+
+nav h1{
+    color: white;
+    align-items: center;
+}
+
+a{
+    text-decoration: none;
+}
+
+main h1{
+    text-align: center  ;
+}
+
+.osztalykep{
+    text-align: center;
+}
+
+.szoveg p{
+    padding: 20px 20px 100px 20px;
+    background-color: gray;
+    text-align: center;
+    color: black;
+}

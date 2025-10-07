@@ -5,17 +5,53 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tantárgy</title>
     <link rel="stylesheet" href="/css/orak.css">
+    <style>
+        div img{
+            position: relative;
+            animation-name: myAnimation;
+            animation-duration: 15s;
+            animation-fill-mode: forwards;
+            border: 1px solid black;
+            border-radius: 20px;
+            animation-timing-function: linear;
+        }
+        @keyframes myAnimation {
+            0%   {left:0px; top:0px;}
+            25%  {left: 1650px; top:0px;}
+            50%  {left:0px; top:0px;}
+            100% {left: 830px; top:0px;}
+        }
+    </style>
 </head>
 <body>
     <nav>
         <a href="index.html"><img src="/kepek/turr_logo_web_57d8e58973.svg" alt="türr logó"></a>
-        <a href="#osztalykep"><h1>Osztálykép</h1></a>
-        <a href="#container"><h1>Órarend</h1></a>
+        <a href="index.html"><h1>Osztálykép</h1></a>
+        <a href="index.html"><h1>Órarend</h1></a>
         
     </nav>
-    <h1>Webprogramozás</h1>
-    <h2>Foki Zoltan</h2>
-    <p>Rövidleirás</p>
-    <p>Tananyag</p>
+    <h1>Fizika</h1>
+    <h2>Kollányi Miklós</h2>
+    <div class="szoveg">
+        <p>
+            A 11. évfolyamos fizika tantárgy a mechanika, hőtan és elektromosságtan alapjait ismétli és bővíti. A tananyag célja, hogy a diákok megértsék a természeti jelenségek fizikai törvényeit és azok gyakorlati alkalmazásait. Fejleszti a logikus gondolkodást, a problémamegoldó képességet és a kísérletezés iránti érdeklődést.
+        </p>
+    </div>
+    <div class="tananyag">
+        <ul>
+            Tananyag:
+            <li>A mozgások leírása és dinamikai törvények</li>
+            <li>Erők, energia és munkavégzés</li>
+            <li>A lendület és megmaradási törvények</li>
+            <li>A hőtan alapjai és hőjelenségek</li>
+            <li>Az elektromos mező és elektromos áram</li>
+            <li>Ohm törvénye és egyszerű áramkörök</li>
+            <li>Mágneses mező és elektromágneses indukció</li>
+            <li>Egyszerű gyakorlati mérések és kísérletek</li>
+        </ul>
+        </div>
+        <div>
+            <img src="/kepek/8-cell-simple.gif" alt="">
+        </div>
 </body>
 </html>

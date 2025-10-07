@@ -5,6 +5,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tantárgy</title>
     <link rel="stylesheet" href="/css/orak.css">
+
+    <style>
+        .animacio img{
+            width: 20%;
+            margin-left: 5%;
+        }
+
+        .tananyag img{
+            float: right;
+            margin-right: 15%;
+            animation: zaszlo 4s 1s forwards linear;
+        }
+
+        .tananyag ul{
+            padding: 20px 20px 200px 20px;
+        }
+
+
+        @keyframes zaszlo{
+            from {float: right;}
+            to {transform: translate(-190%, 90%);}
+        }
+    </style>
 </head>
 <body>
     <nav>
@@ -15,7 +38,24 @@
     </nav>
     <h1>Szakmai Angol</h1>
     <h2>Kiss Klára</h2>
-    <p>Az IT szakmai angol az informatikai területen használt angol nyelv speciális formája, amely a számítástechnika, hálózatok, szoftverfejlesztés, adatbiztonság és technikai támogatás szókincsére és kifejezéseire épül. Célja, hogy a szakemberek hatékonyan tudjanak kommunikálni nemzetközi környezetben, dokumentációt írni, technikai problémákat megérteni és megoldani, valamint együttműködni más IT szakemberekkel.</p>
-    <p>Tananyag</p>
+    <div class="szoveg">
+<p>Az IT szakmai angol az informatikai területen használt angol nyelv speciális formája, amely a számítástechnika, hálózatok, szoftverfejlesztés, adatbiztonság és technikai támogatás szókincsére és kifejezéseire épül. Célja, hogy a szakemberek hatékonyan tudjanak kommunikálni nemzetközi környezetben, dokumentációt írni, technikai problémákat megérteni és megoldani, valamint együttműködni más IT szakemberekkel.</p>
+    </div>
+    <div class="tananyag">
+        <p>
+            <img src="/kepek/great-britain-union-flag-1707-1800-227090-removebg-preview.png" alt="">
+            <ul>
+                Tananyag:
+                <li>Alapfogalmak</li>
+                <li>Informatikai szókincs és témák</li>
+                <li>Kommunikációs helyzetek</li>
+                <li>Nyelvtani ismétlés szakmai példákkal</li>
+                <li>Gyakorlati feladatok</li>
+        </p>
+    </div>
+    <div class="animacio">
+        <img src="/kepek/slimpc-removebg-preview.png" alt="">
+    </div>
+    
 </body>
 </html>

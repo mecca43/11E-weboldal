@@ -5,6 +5,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tantárgy</title>
     <link rel="stylesheet" href="/css/orak.css">
+    <style>
+    div img {
+        width: 1000px;
+        position: absolute;
+        bottom: -500px;
+        left: 50%;
+        transform: translateX(-50%);
+        animation: felmegy 4s ease-in-out forwards;
+  }
+  @keyframes felmegy {
+    0% {
+      bottom: -500px;
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+    }
+    100% {
+      bottom: 0px;
+      opacity: 1;
+    }
+  }
+    </style>
 </head>
 <body>
     <nav>
@@ -15,7 +38,25 @@
     </nav>
     <h1>Matek</h1>
     <h2>Huzsvay Edit</h2>
-    <p>Rövidleirás</p>
-    <p>Tananyag</p>
+    <div class="szoveg">
+        <p>
+            A 11. évfolyamos matematika tantárgy a halmazelmélet, algebra, függvények és analízis alapjait ismétli és bővíti. Célja, hogy a diákok logikus gondolkodását, problémamegoldó képességét és absztrakciós készségét fejlessze. A tananyag segít a későbbi természettudományos és gazdasági tanulmányok megalapozásában.
+        </p>
+    </div>
+    <div class="tananyag">
+        <ul>
+            Tananyag:
+            <li>Halmazok, relációk és függvények</li>
+            <li>Algebrai kifejezések, egyenletek és egyenlőtlenségek</li>
+            <li>Másodfokú, exponenciális és logaritmusos függvények</li>
+            <li>Sorozatok és végtelen sorok</li>
+            <li>Analitikus geometria (egyenes, kör, koordinátageometria)</li>
+            <li>Differenciálszámítás alapjai (függvények vizsgálata)</li>
+            <li>Statisztika és valószínűségszámítás alapjai</li>
+        </ul>
+        </div>
+<div>
+    <img src="/kepek/matek.png" alt="">
+</div>
 </body>
 </html>

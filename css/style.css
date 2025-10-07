@@ -43,7 +43,7 @@ main h1{
     padding: 20px 20px 30px 20px;
     margin-inline: 10%;
     border-radius: 10px;
-    background-color: gray;
+    background-color: lightgray;
     line-height: 150%;
     color: black;
 }

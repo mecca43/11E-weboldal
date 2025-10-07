@@ -9,13 +9,53 @@
 <body>
     <nav>
         <a href="index.html"><img src="/kepek/turr_logo_web_57d8e58973.svg" alt="türr logó"></a>
-        <a href="#osztalykep"><h1>Osztálykép</h1></a>
-        <a href="#container"><h1>Órarend</h1></a>
+        <a href="index.html"><h1>Osztálykép</h1></a>
+        <a href="index.html"><h1>Órarend</h1></a>
         
     </nav>
     <h1>Adatbázis</h1>
-    <h2>Németh Ildika</h2>
-    <p>Rövidleirás</p>
-    <p>Tananyag</p>
+    <h2>Taskovics Péter</h2>
+    <div class="szoveg">
+        <p>Az Adatbázis tantárgy célja, hogy a tanulók megismerkedjenek az adatbázisok tervezésének, 
+            létrehozásának és kezelésének alapjaival. A tantárgy során a diákok elsajátítják az adatmodellezés, 
+            az SQL nyelv használatát, valamint az adatbázis-kezelő rendszerek működését és alkalmazását különböző környezetekben. 
+            Kiemelt figyelmet kapnak az adatintegritás, a normalizáció és a teljesítményoptimalizálás is.</p>
+
+    </div>
+    <div class="tananyag">
+        <ul>
+            Tananyag:
+            <li>Adatbázis alapfogalmak és típusok</li>
+            <li>Adatmodellezés (ER-diagramok, relációs modell)</li>
+            <li>SQL nyelv alapjai (lekérdezések, módosítások, táblák létrehozása)</li>
+            <li>Adatbázis-kezelő rendszerek (MySQL, PostgreSQL, SQLite)</li>
+        </ul>
+    </div>
+    <div class="kep">
+        <img src="/kepek/adatbazis.png" alt="">
+    </div>
+    <style>
+        @keyframes megjelenes{
+            0%{opacity: 0;}
+            50%{opacity: 1;}
+            100%{opacity: 0;}
+        }
+        
+        .kep{
+            margin-top: 3%;
+            text-align: center;
+        }
+
+        .kep img{
+            width: 30%;
+            height: auto;
+            animation-name: megjelenes;
+            animation-duration: 5s;
+            animation-timing-function: linear;
+            animation-iteration-count: infinite;
+        }
+    </style>
+        
+    
 </body>
 </html>

@@ -3,19 +3,56 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tantárgy</title>
+    <title>Webprogramozás</title>
     <link rel="stylesheet" href="/css/orak.css">
+    <style>
+        .animacio{ 
+        background: #111;
+        margin-inline: 10%;
+        margin-top: 2%;
+        color: #0f0;
+        padding: 20px;
+        font-family: monospace;
+        animation: asd 1.5s infinite linear;
+}
+        @keyframes asd {
+        from { color: #0f0; }
+        to { color: red; }
+}
+    </style>
 </head>
 <body>
     <nav>
         <a href="index.html"><img src="/kepek/turr_logo_web_57d8e58973.svg" alt="türr logó"></a>
-        <a href="#osztalykep"><h1>Osztálykép</h1></a>
-        <a href="#container"><h1>Órarend</h1></a>
+        <a href="index.html"><h1>Osztálykép</h1></a>
+        <a href="index.html"><h1>Órarend</h1></a>
         
     </nav>
-    <h1>Matek</h1>
-    <h2>Huzsvay Edit</h2>
-    <p>Rövidleirás</p>
-    <p>Tananyag</p>
+    <h1>Webprogramozás</h1>
+    <h2>Foki Zoltán</h2>
+    <div class="szoveg">
+        <p>A webprogramozás a weboldalak és webalkalmazások készítésének folyamata.
+        Célja, hogy működő, interaktív és felhasználóbarát webes felületeket hozzon létre.
+        A tanulók megismerik a HTML nyelvet a tartalom felépítéséhez, a CSS-t a megjelenés formázásához, és a JavaScriptet az interaktív működéshez.</p>
+    </div>
+     <div class="tananyag">
+        
+        <ul>
+            Tananyag:
+                <li>Alapfogalmak</li>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>Projektkészítés</li>
+        </ul>
+    </div>
+    <div class="animacio">
+        &lt;html&gt;
+        &lt;head&gt;&lt;/head&gt;
+        &lt;body&gt;
+        &lt;h1&gt;Hello, Web!&lt;/h1&gt;
+        &lt;/body&gt;
+        &lt;/html&gt;
+    </div>
 </body>
 </html>

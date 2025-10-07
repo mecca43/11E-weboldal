@@ -9,13 +9,50 @@
 <body>
     <nav>
         <a href="index.html"><img src="/kepek/turr_logo_web_57d8e58973.svg" alt="türr logó"></a>
-        <a href="#osztalykep"><h1>Osztálykép</h1></a>
-        <a href="#container"><h1>Órarend</h1></a>
+        <a href="index.html"><h1>Osztálykép</h1></a>
+        <a href="index.html"><h1>Órarend</h1></a>
         
     </nav>
     <h1>Ikt projektmunka II</h1>
     <h2>Taskovics Péter</h2>
-    <p>Rövidleirás</p>
-    <p>Tananyag</p>
+    <div class="szoveg">
+        <p>Az Ikt projektmunka II tantárgy célja, hogy a tanulók gyakorlati tapasztalatokat szerezzenek egy valós informatikai projekt megvalósításában. 
+            A tantárgy során a diákok egy csoportban dolgozva alkalmazzák az előző félévekben tanult elméleti és gyakorlati ismereteket, 
+            beleértve a szoftverfejlesztési módszertanokat, programozási nyelveket, adatbázis-kezelést és verziókezelést. 
+            Kiemelt figyelmet kap a csapatmunka, a kommunikáció és a projektmenedzsment is.</p>
+    </div>
+    <div class="tananyag">
+            <ul>
+                Tananyag:
+                <li>Projekttervezés és követelményanalízis</li>
+                <li>Szoftverfejlesztési módszertanok (Agilis, Scrum)</li>
+                <li>Verziókezelés (Git, GitHub)</li>
+                <li>Csapatmunka és kommunikáció</li>
+            </ul>
+    </div>
+    <div class="kep">
+        <img src="/kepek/ikt.png" alt="">
+    </div>
+    <style>
+        @keyframes megjelenes{
+            0%{opacity: 0;}
+            50%{opacity: 1;}
+            100%{opacity: 0;}
+        }
+        
+        .kep{
+            margin-top: 3%;
+            text-align: center;
+        }
+
+        .kep img{
+            width: 30%;
+            height: auto;
+            animation-name: megjelenes;
+            animation-duration: 5s;
+            animation-timing-function: linear;
+            animation-iteration-count: infinite;
+        }
+    </style>
 </body>
 </html>

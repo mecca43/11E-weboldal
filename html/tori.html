@@ -5,17 +5,49 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tantárgy</title>
     <link rel="stylesheet" href="/css/orak.css">
+    <style>
+        div img{
+            width: 400px;
+            position: relative;
+            animation-name: myAnimation;
+            animation-duration: 6s;
+            animation-fill-mode: forwards;
+        }
+        @keyframes myAnimation {
+            0%   {left:0px; top:0px;}
+            100%  {left: 1500px; top:0px;}
+        }
+    </style>
 </head>
 <body>
     <nav>
         <a href="index.html"><img src="/kepek/turr_logo_web_57d8e58973.svg" alt="türr logó"></a>
-        <a href="#osztalykep"><h1>Osztálykép</h1></a>
-        <a href="#container"><h1>Órarend</h1></a>
+        <a href="index.html"><h1>Osztálykép</h1></a>
+        <a href="index.html"><h1>Órarend</h1></a>
         
     </nav>
     <h1>Történelem</h1>
     <h2>Pakainé Estók Júlia Gabriella</h2>
-    <p>Rövidleirás</p>
-    <p>Tananyag</p>
+    <div class="szoveg">
+        <p>
+          A 11. évfolyamos történelem tantárgy a 19–20. század legfontosabb eseményeit és folyamatait mutatja be. A tananyag foglalkozik az ipari forradalommal, a világháborúkkal, a hidegháborúval és Magyarország modern kori történetével. Célja, hogy a diákok megértsék a mai világ történelmi gyökereit és összefüggéseit.
+        </p>
+    </div>
+    <div class="tananyag">
+        <ul>
+            Tananyag:
+            <li>Az ipari forradalom és következményei</li>
+            <li>A polgári átalakulás Európában</li>
+            <li>Az első és a második világháború</li>
+            <li>A két világháború közötti időszak</li>
+            <li>A hidegháború és a kétpólusú világrend</li>
+            <li>A gyarmati rendszer felbomlása</li>
+            <li>Magyarország a 19–20. században</li>
+            <li>A rendszerváltozás és a modern Európa kialakulása</li>
+        </ul>
+        </div>
+        <div>
+            <img src="/kepek/tori.png" alt="">
+        </div>
 </body>
 </html>

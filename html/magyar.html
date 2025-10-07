@@ -5,17 +5,76 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tantárgy</title>
     <link rel="stylesheet" href="/css/orak.css">
+    <style>
+        div img{
+            width: 150px;
+            position: absolute;
+            top: 0;
+            right: 0;
+            animation: mozgasForgas 4s ease-in-out forwards;
+        }
+    @keyframes mozgasForgas {
+        0% {
+            top: -100px;
+            right: -100px;
+            transform: rotate(0deg) scale(0.8);
+            opacity: 0;
+            }
+        50% {
+            opacity: 1;
+            }
+        100% {
+            top: calc(100% - 150px);
+            right: calc(100% - 150px);
+            transform: rotate(720deg) scale(1);
+            opacity: 1;
+            }
+        }
+    </style>
 </head>
 <body>
     <nav>
         <a href="index.html"><img src="/kepek/turr_logo_web_57d8e58973.svg" alt="türr logó"></a>
-        <a href="#osztalykep"><h1>Osztálykép</h1></a>
-        <a href="#container"><h1>Órarend</h1></a>
+        <a href="index.html"><h1>Osztálykép</h1></a>
+        <a href="index.html"><h1>Órarend</h1></a>
         
     </nav>
     <h1>Magyar</h1>
     <h2>Szerencsés Tímea</h2>
-    <p>Rövidleirás</p>
-    <p>Tananyag</p>
+    <div class="szoveg">
+        <p>
+            Irodalom: A 11. évfolyamos irodalom tantárgy a 19–20. századi magyar és világirodalom kiemelkedő alkotóival és műveivel foglalkozik. Célja, hogy a diákok megértsék az irodalmi művek történelmi, társadalmi és érzelmi hátterét. Fejleszti az értő olvasást, a szövegértelmezést és az önálló véleményalkotást.
+        </p>
+        <br>
+        <p>
+            Nyelvtan: A 11. évfolyamos nyelvtan tantárgy a magyar nyelv szerkezetének és használatának mélyebb megértésére épül. Célja, hogy a diákok tudatosabban használják a nyelvet, fejlesszék szövegalkotási és kommunikációs készségeiket. A tananyag segít az anyanyelvi kompetencia és a helyes nyelvhasználat fejlesztésében.
+        </p>
+    </div>
+    <div class="tananyag">
+        <ul>
+            Tananyag Irodalom:
+            <li>A romantika, realizmus és szimbolizmus irodalma</li>
+            <li>Petőfi Sándor és Arany János költészete</li>
+            <li>Madách Imre: Az ember tragédiája</li>
+            <li>A Nyugat nemzedéke: Ady Endre, Babits Mihály, Kosztolányi Dezső</li>
+            <li>Modern magyar próza: Móricz Zsigmond, Krúdy Gyula</li>
+            <li>A 20. századi világirodalom: Kafka, Orwell, Hemingway</li>
+            <li>Irodalmi műelemzés, stílusirányzatok és műfajismeret</li>
+        </ul>
+        <ul>
+            Tananyag Nyelvtan:
+            <li>A nyelv és a kommunikáció folyamata</li>
+            <li>A szöveg felépítése, szövegfajták és stílusrétegek</li>
+            <li>A magyar nyelv története és változásai</li>
+            <li>A nyelv rétegződése (tájszólások, szaknyelvek, szleng)</li>
+            <li>Nyelvhelyesség, helyesírás és stilisztika</li>
+            <li>A jelentéstan alapjai (szójelentés, hangulat, konnotáció)</li>
+            <li>Mágneses mező és elektromágneses indukció</li>
+            <li>Kommunikációs helyzetek és beszédműfajok elemzése</li>
+        </ul>
+        </div>
+        <div>
+            <img src="/kepek/magyar.png" alt="">
+        </div>
 </body>
 </html>

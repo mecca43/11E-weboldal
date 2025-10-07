@@ -1,0 +1,39 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav{
+    display: flex;
+    background-color: #778dfa;
+    height: 60px;
+    gap: 50px;
+}
+
+nav img{
+    width: 200px;
+    height: 70px;
+}
+
+nav h1{
+    color: white;
+    align-items: center;
+}
+
+a{
+    text-decoration: none;
+}
+
+h1{
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+}
+
+p{
+    text-align: center;
+    margin: auto;
+}

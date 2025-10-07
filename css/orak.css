@@ -8,6 +8,7 @@ nav{
     display: flex;
     background-color: #778dfa;
     height:80px;
+    text-align: center;
     gap: 5%;
 }
 
@@ -49,4 +50,17 @@ p{
     background-color: gray;
     line-height: 150%;
     color: black;
+    margin-bottom: 10px;
 }
+
+.tananyag ul{
+    padding: 20px 20px 30px 20px;
+    margin-inline: 10%;
+    border-radius: 10px;
+    background-color: gray;
+    line-height: 150%;
+    color: black;
+    display: block;
+}
+
+

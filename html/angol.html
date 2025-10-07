@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tantárgy</title>
+    <link rel="stylesheet" href="/css/orak.css">
+</head>
+<body>
+    <nav>
+        <a href="index.html"><img src="/kepek/turr_logo_web_57d8e58973.svg" alt="türr logó"></a>
+        <a href="index.html"><h1>Osztálykép</h1></a>
+        <a href="index.html"><h1>Órarend</h1></a>
+        
+    </nav>
+    <h1>Angol nyelv</h1>
+    <h2>Csoportok és tanárok:</h2>
+    <div class="tananyag">  
+            <ul>
+                <li>Csoport 1: Dr. Szűcs krisztina</li>
+                <li>Csoport 2: Lakner Mónika</li>
+                <li>Csoport 3: Bencze Balázs</li>
+                <li>Csoport 4: Bata Mónika</li>
+                <li>Csoport 5: Nemes Anikó</li>
+                <li>Csoport 6: Kiss Klára</li>
+                <li>Csoport 7: Balykó Gyöngyvér</li>
+                <li>Csoport 8: Sörös Mária</li>
+                <li>Csoport 9: Sörös Mária</li>
+                <li>Csoport 10: Tápainé Ildikó</li>
+            </ul>
+    </div>
+    <div class="tananyag" style="z-index: 100;">
+            <ul>
+                Tananyag:
+                <li>Témakör 1: School</li>
+                <li>Témakör 2: Work</li>
+                <li>Témakör 3: Nature</li>
+                <li>Témakör 4: Echonomy</li>
+                <li>Témakör 5: Science and Technology</li>
+                <li>Témakör 6: SPORT</li>
+                <li>Témakör 7: Holidays</li>
+            </ul>
+    </div>
+    <div class="kep">
+        <img src="/kepek/uk-flag-flagpole-vector_688395-155.jpg" alt="Brit zászló">
+    </div>
+    <style>
+        .kep{
+            text-align: center;
+            animation: mozgasForgas 4s ease-in-out forwards;
+        }
+        .kep img{
+            border: 1px solid white;
+            border-radius: 40%;
+        }
+    @keyframes mozgasForgas {
+        0% {
+            top: -100px;
+            right: -100px;
+            transform: rotate(0deg) scale(0.8);
+            opacity: 0;
+            }
+        50% {
+            opacity: 1;
+            }
+        100% {
+            top: calc(100% - 150px);
+            right: calc(100% - 150px);
+            transform: rotate(720deg) scale(1);
+            opacity: 1;
+            }
+        }
+    </style>
+</body>
+</html>

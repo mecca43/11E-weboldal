@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tantárgy</title>
+    <link rel="stylesheet" href="/css/orak.css">
+</head>
+<body>
+    <nav>
+        <a href="index.html"><img src="/kepek/turr_logo_web_57d8e58973.svg" alt="türr logó"></a>
+        <a href="index.html"><h1>Osztálykép</h1></a>
+        <a href="index.html"><h1>Órarend</h1></a>
+        
+    </nav>
+    <h1>Angol nyelv</h1>
+    <h2>Csoportok és tanárok:</h2>
+    <div class="tananyag">  
+            <ul>
+                <li>Csoport 1: Debela Hegyi Éva</li>
+                <li>Csoport 2: Pumpné Biró Ágnes</li>
+            </ul>
+    </div>
+    <div class="tananyag" style="z-index: 100;">
+            <ul>
+                Tananyag:
+                <li>Témakör 1: Themen und Situationen im persönlichen Bereich:
+                    Verwandtschaftsbeziehungen, Lebensstil, Mensch und
+                    Gesellschaft</li>
+                <li>Témakör 2: Themen und Situationen im Bereich der Umgebung und
+                                Umwelt</li>
+                <li>Témakör 3: Arbeitswelt und Karriere </li>
+                <li>Témakör 4: Reisen und Urlaub, Tourismus</li>
+                <li>Témakör 5: Öffentliches Leben, Unterhaltung</li>
+                <li>Témakör 6: Bezüge zur Zielsprache und zum Sprachenlernen</li>
+                <li>Témakör 7: Interkulturelle und landeskundliche Themen</li>
+                <li>Témakör 8:Fächerübergreifende Themen und Situationen</li>
+                <li>Témakör 9:Aktuelle Themen</li>
+                <li>Témakör 10:Wissenschaft und Technik, Kommunikation</li>
+                <li>Témakör 11:Wissenserwerb, Wissensvermittlung </li>
+                <li>Témakör 12:Mensch und Gesellschaft, Sucht und Abhängigkeit</li>
+                <li>Témakör 13:Wirtschaft und Finanzen</li>
+                <li>Témakör 14:Vorbereitung auf das Abitur</li>
+            </ul>
+    </div>
+    <div class="kep">
+        <img src="/kepek/7ba9ec43a0f99cc802c83b8cc8fe4a3e_t.jpeg" alt="Német zászló">
+    </div>
+    <style>
+        .kep{
+            text-align: center;
+            animation: mozgasForgas 4s ease-in-out forwards;
+        }
+        .kep img{
+            border: 1px solid white;
+            border-radius: 100%;
+        }
+    @keyframes mozgasForgas {
+        0% {
+            top: -100px;
+            right: -100px;
+            transform: rotate(0deg) scale(0.8);
+            opacity: 0;
+            }
+        50% {
+            opacity: 1;
+            }
+        100% {
+            top: calc(100% - 150px);
+            right: calc(100% - 150px);
+            transform: rotate(720deg) scale(1);
+            opacity: 1;
+            }
+        }
+    </style>
+</body>
+</html>

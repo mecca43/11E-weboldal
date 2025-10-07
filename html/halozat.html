@@ -14,8 +14,48 @@
         
     </nav>
     <h1>Hálózati alapismeretek</h1>
-    <h2>Szerencsés Tímea</h2>
-    <p>Rövidleirás</p>
-    <p>Tananyag</p>
+    <h2>Jimmy</h2>
+    <div class="szoveg">
+        <p>A Hálózati alapismeretek tantárgy célja, hogy a hallgatók megismerkedjenek a számítógépes hálózatok alapvető fogalmaival, 
+            működésével és alkalmazásaival. A tantárgy során a diákok elsajátítják a hálózati protokollok, eszközök és szolgáltatások 
+            működését, valamint a hálózatok tervezésének és üzemeltetésének alapjait. Kiemelt figyelmet kapnak a biztonsági 
+            kérdések és a hálózati problémák megoldási stratégiái is.</p>
+    </div>
+    
+    <div class="tananyag">
+            <ul>
+                Tananyag:
+                <li>-Hálózati alapfogalmak és architektúrák</li>
+                <li>-Hálózati protokollok (TCP/IP, UDP, HTTP, FTP)</li>
+                <li>-Hálózati eszközök (routerek, switchek, tűzfalak)</li>
+                <li>-Hálózatbiztonság és titkosítás</li>
+            </ul>
+    </div>
+
+    <div class="kep">
+        <img src="/kepek/halozat.png" alt="">
+    </div>
+
+    <style>
+        @keyframes megjelenes{
+            0%{opacity: 0;}
+            50%{opacity: 1;}
+            100%{opacity: 0;}
+        }
+        
+        .kep{
+            margin-top: 3%;
+            text-align: center;
+        }
+
+        img{
+            width: 30%;
+            height: auto;
+            animation-name: megjelenes;
+            animation-duration: 5s;
+            animation-timing-function: linear;
+            animation-iteration-count: infinite;
+        }
+    </style>
 </body>
 </html>
